@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício B1-JavaScript</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            background-color: #2292a4;
+
+        }
+        
+        .post {
+            background-color: #f5efed;
+            color: #0f0a0a;
+
+            margin: 0 auto;
+            max-width: 880px;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            }
+
+        .selected {
+            background-color: #0f0a0a;
+            color: #f5efed;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="encapsulador">
+
+        <div onclick="myFunction(1)" class="post selected">
+            <h1>Noticia 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae eu nulla vitae euismod ultrices pellentesque pharetra. Id faucibus diam lacus fringilla urna pulvinar sed. Cras pretium iaculis sed viverra aliquet sollicitudin gravida pellentesque. Et cras dui cum ultricies rhoncus dapibus eu. Velit in quam tellus dignissim ac consectetur interdum id. Mauris proin blandit cursus volutpat scelerisque accumsan sed vel. Donec mauris condimentum facilisis facilisi.
+            Dui quis sed quis amet. Suspendisse risus enim morbi eu amet. Placerat pulvinar massa netus posuere sed eu ornare egestas. Feugiat arcu ac sit ultrices faucibus habitant quis. Sed et vel dui adipiscing pharetra egestas lobortis lacus. Tempor cursus consectetur arcu ullamcorper justo suspendisse urna nisi. Dictumst pulvinar lacus sit diam ac diam nunc aliquet sollicitudin. Lectus diam quam tempus congue non feugiat augue lacus at. Quis ornare elementum nec in. Et sagittis vitae mauris enim dui quis at nibh feugiat. Nunc lacus mauris sed eget nunc porttitor.
+            Tincidunt fermentum erat pellentesque tellus. Leo porta nunc est mauris at. Duis auctor mollis id mi eget phasellus. Integer a accumsan dui vel sapien urna tellus. Risus phasellus auctor interdum nibh. Feugiat lectus quis tempor lectus nam volutpat sit proin. Gravida enim pretium nulla id venenatis porttitor elementum nec faucibus. Est non neque mi ornare. Facilisi et potenti habitasse tristique lacinia leo. Sodales accumsan pharetra vulputate cras semper parturient. Tristique orci amet varius euismod. Suspendisse eu vestibulum volutpat orci blandit amet venenatis nunc.
+            Interdum suspendisse fringilla lectus felis pellentesque quam felis vulputate. Posuere vivamus ultricies sed vulputate tortor vitae. Lacus sed egestas mollis nunc aliquet commodo erat. Orci turpis pellentesque tristique massa blandit. Eget faucibus nascetur placerat sed massa ut vulputate in ultrices. Condimentum elementum vulputate iaculis sed arcu pellentesque imperdiet sed odio.
+            Amet ullamcorper amet vitae tellus. Fringilla sed vulputate id eleifend libero platea. Quis mauris vitae at nibh adipiscing dolor nunc mauris magna. Placerat libero molestie odio mauris tortor sed duis morbi. In malesuada eget in dictum cras facilisis. Urna aliquet rhoncus duis sit sagittis.</p>
+        </div>
+
+        <div onclick="myFunction(2)" class="post">
+            <h1>Noticia 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae eu nulla vitae euismod ultrices pellentesque pharetra. Id faucibus diam lacus fringilla urna pulvinar sed. Cras pretium iaculis sed viverra aliquet sollicitudin gravida pellentesque. Et cras dui cum ultricies rhoncus dapibus eu. Velit in quam tellus dignissim ac consectetur interdum id. Mauris proin blandit cursus volutpat scelerisque accumsan sed vel. Donec mauris condimentum facilisis facilisi.
+            Dui quis sed quis amet. Suspendisse risus enim morbi eu amet. Placerat pulvinar massa netus posuere sed eu ornare egestas. Feugiat arcu ac sit ultrices faucibus habitant quis. Sed et vel dui adipiscing pharetra egestas lobortis lacus. Tempor cursus consectetur arcu ullamcorper justo suspendisse urna nisi. Dictumst pulvinar lacus sit diam ac diam nunc aliquet sollicitudin. Lectus diam quam tempus congue non feugiat augue lacus at. Quis ornare elementum nec in. Et sagittis vitae mauris enim dui quis at nibh feugiat. Nunc lacus mauris sed eget nunc porttitor.
+            Tincidunt fermentum erat pellentesque tellus. Leo porta nunc est mauris at. Duis auctor mollis id mi eget phasellus. Integer a accumsan dui vel sapien urna tellus. Risus phasellus auctor interdum nibh. Feugiat lectus quis tempor lectus nam volutpat sit proin. Gravida enim pretium nulla id venenatis porttitor elementum nec faucibus. Est non neque mi ornare. Facilisi et potenti habitasse tristique lacinia leo. Sodales accumsan pharetra vulputate cras semper parturient. Tristique orci amet varius euismod. Suspendisse eu vestibulum volutpat orci blandit amet venenatis nunc.
+            Interdum suspendisse fringilla lectus felis pellentesque quam felis vulputate. Posuere vivamus ultricies sed vulputate tortor vitae. Lacus sed egestas mollis nunc aliquet commodo erat. Orci turpis pellentesque tristique massa blandit. Eget faucibus nascetur placerat sed massa ut vulputate in ultrices. Condimentum elementum vulputate iaculis sed arcu pellentesque imperdiet sed odio.
+            Amet ullamcorper amet vitae tellus. Fringilla sed vulputate id eleifend libero platea. Quis mauris vitae at nibh adipiscing dolor nunc mauris magna. Placerat libero molestie odio mauris tortor sed duis morbi. In malesuada eget in dictum cras facilisis. Urna aliquet rhoncus duis sit sagittis.</p>
+        </div>
+
+        <div onclick="myFunction(3)" class="post">
+            <h1>Noticia 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae eu nulla vitae euismod ultrices pellentesque pharetra. Id faucibus diam lacus fringilla urna pulvinar sed. Cras pretium iaculis sed viverra aliquet sollicitudin gravida pellentesque. Et cras dui cum ultricies rhoncus dapibus eu. Velit in quam tellus dignissim ac consectetur interdum id. Mauris proin blandit cursus volutpat scelerisque accumsan sed vel. Donec mauris condimentum facilisis facilisi.
+            Dui quis sed quis amet. Suspendisse risus enim morbi eu amet. Placerat pulvinar massa netus posuere sed eu ornare egestas. Feugiat arcu ac sit ultrices faucibus habitant quis. Sed et vel dui adipiscing pharetra egestas lobortis lacus. Tempor cursus consectetur arcu ullamcorper justo suspendisse urna nisi. Dictumst pulvinar lacus sit diam ac diam nunc aliquet sollicitudin. Lectus diam quam tempus congue non feugiat augue lacus at. Quis ornare elementum nec in. Et sagittis vitae mauris enim dui quis at nibh feugiat. Nunc lacus mauris sed eget nunc porttitor.
+            Tincidunt fermentum erat pellentesque tellus. Leo porta nunc est mauris at. Duis auctor mollis id mi eget phasellus. Integer a accumsan dui vel sapien urna tellus. Risus phasellus auctor interdum nibh. Feugiat lectus quis tempor lectus nam volutpat sit proin. Gravida enim pretium nulla id venenatis porttitor elementum nec faucibus. Est non neque mi ornare. Facilisi et potenti habitasse tristique lacinia leo. Sodales accumsan pharetra vulputate cras semper parturient. Tristique orci amet varius euismod. Suspendisse eu vestibulum volutpat orci blandit amet venenatis nunc.
+            Interdum suspendisse fringilla lectus felis pellentesque quam felis vulputate. Posuere vivamus ultricies sed vulputate tortor vitae. Lacus sed egestas mollis nunc aliquet commodo erat. Orci turpis pellentesque tristique massa blandit. Eget faucibus nascetur placerat sed massa ut vulputate in ultrices. Condimentum elementum vulputate iaculis sed arcu pellentesque imperdiet sed odio.
+            Amet ullamcorper amet vitae tellus. Fringilla sed vulputate id eleifend libero platea. Quis mauris vitae at nibh adipiscing dolor nunc mauris magna. Placerat libero molestie odio mauris tortor sed duis morbi. In malesuada eget in dictum cras facilisis. Urna aliquet rhoncus duis sit sagittis.</p>
+        </div>
+
+        <div onclick="myFunction(4)" class="post">
+            <h1>Noticia 4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae eu nulla vitae euismod ultrices pellentesque pharetra. Id faucibus diam lacus fringilla urna pulvinar sed. Cras pretium iaculis sed viverra aliquet sollicitudin gravida pellentesque. Et cras dui cum ultricies rhoncus dapibus eu. Velit in quam tellus dignissim ac consectetur interdum id. Mauris proin blandit cursus volutpat scelerisque accumsan sed vel. Donec mauris condimentum facilisis facilisi.
+            Dui quis sed quis amet. Suspendisse risus enim morbi eu amet. Placerat pulvinar massa netus posuere sed eu ornare egestas. Feugiat arcu ac sit ultrices faucibus habitant quis. Sed et vel dui adipiscing pharetra egestas lobortis lacus. Tempor cursus consectetur arcu ullamcorper justo suspendisse urna nisi. Dictumst pulvinar lacus sit diam ac diam nunc aliquet sollicitudin. Lectus diam quam tempus congue non feugiat augue lacus at. Quis ornare elementum nec in. Et sagittis vitae mauris enim dui quis at nibh feugiat. Nunc lacus mauris sed eget nunc porttitor.
+            Tincidunt fermentum erat pellentesque tellus. Leo porta nunc est mauris at. Duis auctor mollis id mi eget phasellus. Integer a accumsan dui vel sapien urna tellus. Risus phasellus auctor interdum nibh. Feugiat lectus quis tempor lectus nam volutpat sit proin. Gravida enim pretium nulla id venenatis porttitor elementum nec faucibus. Est non neque mi ornare. Facilisi et potenti habitasse tristique lacinia leo. Sodales accumsan pharetra vulputate cras semper parturient. Tristique orci amet varius euismod. Suspendisse eu vestibulum volutpat orci blandit amet venenatis nunc.
+            Interdum suspendisse fringilla lectus felis pellentesque quam felis vulputate. Posuere vivamus ultricies sed vulputate tortor vitae. Lacus sed egestas mollis nunc aliquet commodo erat. Orci turpis pellentesque tristique massa blandit. Eget faucibus nascetur placerat sed massa ut vulputate in ultrices. Condimentum elementum vulputate iaculis sed arcu pellentesque imperdiet sed odio.
+            Amet ullamcorper amet vitae tellus. Fringilla sed vulputate id eleifend libero platea. Quis mauris vitae at nibh adipiscing dolor nunc mauris magna. Placerat libero molestie odio mauris tortor sed duis morbi. In malesuada eget in dictum cras facilisis. Urna aliquet rhoncus duis sit sagittis.</p>
+        </div>
+
+    </div>
+    
+    <script>
+        function myFunction(e) {
+            const activElement = document.querySelector('.selected');
+            if (activElement) {
+                activElement.classList.remove('selected')
+            }
+            const elements = document.querySelectorAll('.post');
+            const newActiveElement = elements [e-1];
+
+            newActiveElement.classList.add('selected');
+        }
+        </script>
+</body>
+</html>
